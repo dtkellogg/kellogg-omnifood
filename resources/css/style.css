@@ -239,6 +239,11 @@ header {
   width: auto;
   float: left;
   margin-top: 20px;
+
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .logo-black {
