@@ -220,8 +220,12 @@ header {
     url(img/hero-min.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; /* means 100% of viewport */
+  height: 100vh;
   background-attachment: fixed;
+
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .hero-text-box {
@@ -239,11 +243,6 @@ header {
   width: auto;
   float: left;
   margin-top: 20px;
-
-  -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 .logo-black {
